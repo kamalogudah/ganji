@@ -19,6 +19,30 @@ And then execute:
 Or install it yourself as:
 
     $ gem install ganji
+    
+# Getting Started
+This gem has a [Redis](https://redis.io/) dependency, so make sure it running
+```ruby
+$ redis-server
+```
+
+you need to setup your environment variables, checkout `.sample.env` for the values you need.
+or run
+```ruby
+$ cp .sample.env .env
+```
+open `.env` on your editor and add the missing variable
+```
+key=""
+secret=""
+business_short_code=""
+business_passkey=""
+callback_url=""
+```
+
+* `key` and `secret` of the app created on your [developer account](https://developer.safaricom.co.ke/user/me/apps).
+* `business_short_code`  and `business_pass_key` this can be found in [Test Credentials](https://developer.safaricom.co.ke/test_credentials).
+* `callback_url` the url of your application where response will be sent. `make sure its a reachable/active url`
 
 ## Usage
 
