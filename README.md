@@ -1,8 +1,8 @@
 # Ganji
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ganji`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem aims to integrate Kenyan Payments solutions, something like [Active Merchant](https://github.com/activemerchant/active_merchant) to make it easier for Ruby developers to integrate local payment solutions in their applications. This gem was inspired by [mpesa_stk](https://github.com/mboya/mpesa_stk) and aims to build on what was started there, by adding more mpesa payment functionality and other payment solutions as well.
 
-TODO: Delete this and the text above, and describe your gem
+
 
 ## Installation
 
